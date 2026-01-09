@@ -1,0 +1,22 @@
+# Build folders
+/target/
+/build/
+/out/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets (Important!)
+application-local.yaml
+application-dev.yaml
+application.yaml
+.env
