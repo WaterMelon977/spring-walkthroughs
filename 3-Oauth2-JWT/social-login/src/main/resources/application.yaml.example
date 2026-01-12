@@ -19,3 +19,11 @@ spring:
               - openid
               - profile
               - email
+
+application:
+  frontend-url: http://localhost:3000
+  security:
+    jwt:
+      secret: YOUR_JWT_SECRET_KEY_MUST_BE_AT_LEAST_32_CHARACTERS
+      expiration-ms: 900000  # 15 minutes in milliseconds
+      cookie-name: ACCESS_TOKEN
